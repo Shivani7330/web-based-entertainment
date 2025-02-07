@@ -8,10 +8,10 @@
     "backend"
   ],
   "scripts": {
-    "backend": "cd backend && node index.js",
-    "frontend": "cd frontend && npm run dev",
-    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
-  },
+"start": "cd backend && node index.js",
+"dev": "cd backend && nodemon index.js",
+"build": "cd frontend && npm run build"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
